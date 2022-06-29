@@ -15,3 +15,12 @@ if(isset($_SESSION['user_id'])) {
     header('Location: index.php');
     exit;
 }
+
+?>
+
+<!DOCTYPE html>
+<body>
+    <br>
+    <a href="login.php">ログインページに戻る</a>
+</body>
+</html>
